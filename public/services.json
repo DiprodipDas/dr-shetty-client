@@ -1,0 +1,63 @@
+[
+    {
+        "_id": "635a0c0b64a6d231228942ae",
+        "service_id": "04",
+        "title": "Coronary Artery Disease (CAD)",
+        "img": "https://www.maxlab.co.in/category/1665661641.jpg",
+        "price": "20.00",
+        "description": "Coronary Artery Disease (CAD) Coronary artery disease is caused by plaque buildup in the wall of the arteries that supply blood to the heart (called coronary arteries). Plaque is made up of cholesterol deposits. Plaque buildup causes the inside of the arteries to narrow over time.We give you the best treatment of CAD.",
+        "rating": 5,
+        "review": 5
+    },
+    {
+        "_id": "635a0c0b64a6d231228942af",
+        "service_id": "05",
+        "title": "Heart Arrhythmias",
+        "img": "https://www.okheart.com/sites/default/files/field/image/Abnormal-Heart-Rhythms-Oklahoma-Heart-Hospital.jpg",
+        "price": "20.00",
+        "description": "A heart arrhythmia (uh-RITH-me-uh) is an irregular heartbeat. Heart rhythm problems (heart arrhythmias) occur when the electrical signals that coordinate the heart's beats don't work properly. The faulty signaling causes the heart to beat too fast (tachycardia), too slow (bradycardia) or irregularly.We give you the ultimate treatment of  Heart Arrhythmias.",
+        "rating": 5,
+        "review": 3
+    },
+    {
+        "_id": "635b591a1dafe382a9da8c96",
+        "service_id": "01",
+        "title": "Heart Failure",
+        "img": "https://media.istockphoto.com/id/1128931450/photo/heart-attack-concept.jpg?s=612x612&w=0&k=20&c=XHOhTXhpZMSV6XIhXLbH6uvNQjZQS93b1UetGfqQXtI=",
+        "price": "30.00",
+        "description": "Heart failure means that the heart is unable to pump blood around the body properly. It usually happens because the heart has become too weak or stiff. It's sometimes called congestive heart failure, although this name is not widely used now. Heart failure does not mean your heart has stopped working.To get the proper treatment of  heart failure then come try out our services.",
+        "rating": 4,
+        "review": 4
+    },
+    {
+        "_id": "635b5afc1dafe382a9da8c98",
+        "service_id": "02",
+        "title": "Heart Valve Disease",
+        "img": "https://scx2.b-cdn.net/gfx/news/2022/new-minimally-invasive.jpg",
+        "price": "40.00",
+        "description": "In heart valve disease, one or more of the valves in your heart doesn't work properly. Your heart has four valves that keep blood flowing in the correct direction. In some cases, one or more of the valves don't open or close properly. This can cause the blood flow through your heart to your body to be disrupted.we give you the best treatment of Heart Valve Disease",
+        "rating": 5,
+        "review": 5
+    },
+    {
+        "_id": "635b5b691dafe382a9da8c99",
+        "service_id": "06",
+        "title": "Pericardial Disease",
+        "img": "https://healthtalk.unchealthcare.org/wp-content/uploads/2019/04/Pericardial_Effusion-01.png",
+        "price": "20.00",
+        "description": "Pericardial effusion (per-e-KAHR-dee-ul uh-FU-zhun) is the buildup of too much fluid in the double-layered, saclike structure around the heart (pericardium). The space between these layers typically contains a thin layer of fluid.Now anyone can get out of it with the proper treatment.We offer you to get this service from us and get out from this disease.",
+        "rating": 3,
+        "review": 6
+    },
+    {
+        "_id": "635b5ba51dafe382a9da8c9a",
+        "service_id": "03",
+        "title": "Coronary Artery Disease (CAD)",
+        "img": "https://www.saintlukeskc.org/sites/default/files/styles/hero/public/2021-01/SLMAHI_Congenital_hero-img-web%20%281%29.png?itok=Dep1_CPa",
+        "price": "20.00",
+        "description": "Congenital heart disease, also called a defect, refers to one or more problems with the heart structure that are present at birth. These abnormalities occur when the heart or blood vessels don't form correctly in utero. At least eight out of every 1000 infants born in the US each year have a heart defect.We provide the best treatment of it as much as earlier.",
+        "rating": 5,
+        "review": 5
+    }
+
+    ]

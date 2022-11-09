@@ -3,7 +3,6 @@ import img1 from '../../../assets/images/Banner/shetty 3.jpg';
 import img2 from '../../../assets/images/Banner/general surgery.jpg';
 import img3 from '../../../assets/images/Banner/shetty 3.jpg';
 import img4 from '../../../assets/images/Banner/general surgery.jpg';
-import './Banner.css'
 import BannerItem from './BannerItem';
 
 
