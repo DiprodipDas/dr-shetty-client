@@ -27,9 +27,9 @@ const Reviews = () => {
             <input type="checkbox" className="checkbox" />
           </label>
         </th>
-        <th>Name</th>
-        <th>Job</th>
-        <th>Favorite Color</th>
+        <th>Service Name</th>
+        <th>Email</th>
+        <th>Review Massege</th>
         <th></th>
       </tr>
     </thead>
