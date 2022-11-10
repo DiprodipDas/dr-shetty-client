@@ -12,7 +12,7 @@ const Services = () => {
 
     return (
         <div>
-            <div>
+            <div className='m-12'>
               <p  className='text-2xl font-bold text-center'>Services</p>
               <h3 className='text-5xl font-semibold text-center'>Our Services Area</h3>
               <p className='text-center'>Something something doing doing</p>
@@ -26,7 +26,7 @@ const Services = () => {
                 }
             </div>
             <div className='text-center m-5'>
-            <button className="btn btn-success text-center">See all</button>
+            <button className="btn btn-success text-center px-12">See all</button>
             </div>
         </div>
     );

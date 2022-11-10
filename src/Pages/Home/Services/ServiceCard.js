@@ -8,10 +8,16 @@ const ServiceCard = ({service}) => {
             <figure><img src={img} alt="Shoes" /></figure>
             <div className="card-body">
                 <h2 className="card-title">{title}</h2>
-                <p>{description}</p>
+                
+                {
+                    description.length >100 ?
+                    <p>{description.slice(0, 150) + '....'}</p>
+                    :
+                    {description}
+                }
                 <p>price: ${price}</p>
                 <div className="card-actions justify-end">
-                    <button className="btn btn-success">Details</button>
+                <button className="btn btn-success">See Details</button>
                 </div>
             </div>
         </div>
