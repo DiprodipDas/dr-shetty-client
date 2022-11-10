@@ -1,6 +1,5 @@
 [
     {
-        "_id": "635a0c0b64a6d231228942ae",
         "service_id": "04",
         "title": "Coronary Artery Disease (CAD)",
         "img": "https://www.maxlab.co.in/category/1665661641.jpg",
@@ -10,7 +9,6 @@
         "review": 5
     },
     {
-        "_id": "635a0c0b64a6d231228942af",
         "service_id": "05",
         "title": "Heart Arrhythmias",
         "img": "https://www.okheart.com/sites/default/files/field/image/Abnormal-Heart-Rhythms-Oklahoma-Heart-Hospital.jpg",
@@ -20,7 +18,6 @@
         "review": 3
     },
     {
-        "_id": "635b591a1dafe382a9da8c96",
         "service_id": "01",
         "title": "Heart Failure",
         "img": "https://media.istockphoto.com/id/1128931450/photo/heart-attack-concept.jpg?s=612x612&w=0&k=20&c=XHOhTXhpZMSV6XIhXLbH6uvNQjZQS93b1UetGfqQXtI=",
@@ -30,7 +27,6 @@
         "review": 4
     },
     {
-        "_id": "635b5afc1dafe382a9da8c98",
         "service_id": "02",
         "title": "Heart Valve Disease",
         "img": "https://scx2.b-cdn.net/gfx/news/2022/new-minimally-invasive.jpg",
@@ -40,7 +36,6 @@
         "review": 5
     },
     {
-        "_id": "635b5b691dafe382a9da8c99",
         "service_id": "06",
         "title": "Pericardial Disease",
         "img": "https://healthtalk.unchealthcare.org/wp-content/uploads/2019/04/Pericardial_Effusion-01.png",
@@ -50,7 +45,6 @@
         "review": 6
     },
     {
-        "_id": "635b5ba51dafe382a9da8c9a",
         "service_id": "03",
         "title": "Coronary Artery Disease (CAD)",
         "img": "https://www.saintlukeskc.org/sites/default/files/styles/hero/public/2021-01/SLMAHI_Congenital_hero-img-web%20%281%29.png?itok=Dep1_CPa",
