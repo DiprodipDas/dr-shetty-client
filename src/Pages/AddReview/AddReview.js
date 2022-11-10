@@ -5,6 +5,8 @@ import { AuthContext } from '../../context/AuthProvider/AuthProvider';
 const AddReview = () => {
     const {_id,title}= useLoaderData();
     const {user}= useContext(AuthContext);
+    console.log(user);
+
 
     const handleReview=event=>{
         event.preventDefault();
@@ -24,7 +26,7 @@ const AddReview = () => {
          reviewMessage
         }
         
-      fetch('http://localhost:5000/reviews',{
+      fetch('https://service-review-assignment-server-mu.vercel.app/reviews',{
         method:'POST',
         headers:{
             'content-type':'application/json'

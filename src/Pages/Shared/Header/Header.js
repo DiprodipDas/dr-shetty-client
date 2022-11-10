@@ -1,13 +1,27 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../../assets/1691295.svg'
+import { AuthContext } from '../../../context/AuthProvider/AuthProvider';
+import {GoogleAuthProvider} from 'firebase/auth';
 
 const Header = () => {
+  const {providerLogin} = useContext(AuthContext);
+  const googleProvider= new GoogleAuthProvider();
+  const handleGoogleSignIn=()=>{
+  providerLogin(googleProvider)
+  .then(result=>{
+    const user= result.user;
+    console.log(user);
+  })
+  .catch(err=>console.error(err));
+  }
 
     const menuItems= 
     <>
     <li className='font-semibold'><Link to='/'>Home</Link></li>
     <li className='font-semibold'><Link to='/login'>Login</Link></li>
+    <li className='font-semibold'><Link to='/reviews'>My Review</Link></li>
+    <li className='font-semibold'><Link to='/blog'>Blog</Link></li>
     
     </>
     return (
@@ -31,7 +45,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end">
-        <button className="btn btn-success">Get Appoinment</button>
+        <button onClick={handleGoogleSignIn} className="btn btn-success">Sign-in with Google</button>
         </div>
       </div>
     );
