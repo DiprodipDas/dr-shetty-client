@@ -35,9 +35,9 @@ const Header = () => {
              {menuItems}
             </ul>
           </div>
-          <Link to='/' className="btn btn-ghost normal-case text-xl">
+          <Link to='/' className="btn btn-ghost normal-case text-sm">
              <img className=' h-10' src={logo} alt="" />
-             Dr Shetty's Chamber</Link>
+             Shetty's Chamber</Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal p-0">
@@ -45,7 +45,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end">
-        <button onClick={handleGoogleSignIn} className="btn btn-success">Sign-in with Google</button>
+        <button onClick={handleGoogleSignIn} className="btn btn-success">Continue with <br /> Google</button>
         </div>
       </div>
     );

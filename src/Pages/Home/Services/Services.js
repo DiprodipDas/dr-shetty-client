@@ -16,7 +16,6 @@ const Services = () => {
             <div className='m-12'>
               <p  className='text-2xl font-bold text-center'>Services</p>
               <h3 className='text-5xl font-semibold text-center'>Our Services Area</h3>
-              <p className='text-center'>Something something doing doing</p>
             </div>
             <div className='grid gap-6  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 '>
                 {
